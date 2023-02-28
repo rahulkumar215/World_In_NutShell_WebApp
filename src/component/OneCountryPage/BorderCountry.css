@@ -1,0 +1,34 @@
+.border-countries{
+    display: flex;
+    align-items: center;
+}
+
+.border-countries h5{
+    color: var(--text-color);
+    margin-right: 20px;
+    margin-bottom: 10px;
+}
+
+.border-countries button{
+    background-color: var(--secondary-color);
+    border: none;
+    cursor: pointer;
+    border-radius: 2.5px;
+    padding: .5rem 2rem; 
+    color: var(--text-color);
+    margin-right: 10px;
+    box-shadow: 0px 0px 31px -15px rgba(0,0,0,0.75);
+}
+
+@media(max-width: 992px){
+    .border-countries{
+        justify-content: center;
+    }
+}
+
+@media(max-width: 992px){
+    .border-countries{
+        flex-direction: column;
+        justify-content: center;
+    }
+}

@@ -1,0 +1,54 @@
+.country-input{
+    width: 350px;
+    border-radius: 5px;
+    overflow: hidden;
+    background-color: var(--secondary-color);
+    box-shadow: 0px 0px 31px -15px rgba(0,0,0,0.75);
+    margin-right: 50px;
+}
+
+.country-input form{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    padding: .62rem;
+}
+
+.country-input input{
+    font-size: 1.1rem;
+    padding: 10px;
+    width: 89%;
+    font-size: 1rem;
+    color: var(--text-color);
+    margin-right: -1px;
+    border: none;
+    background-color: var(--secondary-color);
+    outline: none;
+}
+
+.country-input button{
+    height: 100%;
+    min-width: 50px;
+    width: 10%;
+    font-size: .8rem;
+    cursor: pointer;
+    color: var(--text-color);
+    background-color: var(--secondary-color);
+    border: none;
+}
+
+input::placeholder{
+    color: var(--text-color);
+    opacity: .85;
+}
+
+input:focus::placeholder{
+    color: transparent;
+}
+
+@media(max-width: 742px){
+    .country-input{
+        margin-right: 0;
+        margin: 20px 0;
+    }
+}

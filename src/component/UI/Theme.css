@@ -1,0 +1,16 @@
+
+.btn{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: transparent;
+    border: none;
+    font-size: .9rem;
+    color: var(--text-color);
+    cursor: pointer;
+}
+
+.btn-icon{
+    margin-right: 5px;
+}
+

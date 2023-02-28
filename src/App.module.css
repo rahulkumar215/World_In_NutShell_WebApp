@@ -1,0 +1,12 @@
+.darkTheme{
+    --primary-color: hsl(207, 26%, 17%);
+    --secondary-color: hsl(209, 23%, 22%) ;
+    --text-color: #ffffff;
+}
+
+.lighttheme{
+    --primary-color: hsl(0, 7%, 91%);
+    --secondary-color: hsl(0, 0%, 98%) ;
+    --text-color: #00000;
+    --specific-color: hsl(0, 0%, 100%);
+}

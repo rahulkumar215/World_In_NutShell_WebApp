@@ -1,0 +1,40 @@
+.inputs{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px;
+}
+
+.home-icon{
+    display: flex;
+    align-items: center;
+}
+
+.home-icon button:hover{
+    opacity: 1;
+}
+
+.home-icon a{
+    text-decoration: none;
+    color: var(--text-color);
+    background-color: var(--secondary-color);
+    padding: .78rem;
+    border: none;
+    margin: 0;
+    cursor: pointer;
+    opacity: .8;
+    box-shadow: 0px 0px 31px -15px rgba(0,0,0,0.75);
+    margin-right: 20px;
+}
+
+@media(max-width: 742px){
+    .inputs{
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .home-icon a{
+        padding: .93rem;
+    }
+}
